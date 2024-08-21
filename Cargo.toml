@@ -6,7 +6,13 @@ edition = "2021"
 [dependencies]
 actix-web = "4.1"
 serde = { version = "1.0", features = ["derive"] }
+text-colorizer = "1"
+regex = "1"
 
 [[bin]]
 name = "actix-web"
-path = "src/bin/ch1/actix-web.rs"
+path = "src/bin/ch2/actix-web.rs"
+
+[[bin]]
+name = "quickreplace"
+path = "src/bin/ch2/quickreplace.rs"
